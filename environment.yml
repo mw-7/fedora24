@@ -6,11 +6,11 @@ name: consumption-env
 dependencies:
 
 - python=3.6.2        # rpi 3.6.3
-- ruamel_yaml=0.11.14 # rpi 0.11.14
-- redis-py=2.10.3     # rpi none yet
-- numpy=1.13.1        # rpi 1.13.3
 - pandas=0.20.3       # rpi 0.21.0
+- scikit-learn=0.19.0 # rpi 0.19.1
+- numpy=1.13.1        # rpi 1.13.3
+- ruamel_yaml=0.11.14 # rpi 0.11.14
 - sqlalchemy=1.1.4    # rpi 1.1.4 
 - psycopg2=2.7.1      # rpi 2.7.3.2
-- scikit-learn=0.19.0 # rpi 0.19.1
+- redis-py=2.10.3     # rpi none yet
 - psutil=5.0.1        # rpi none yet
