@@ -1,16 +1,16 @@
-# Comments of the type "# DJ packagename (version)" state in which version a dependency
-# is contained in Debian Jessie.
+# Comments of the type "# rpi (version)" state in which version a dependency
+# is contained in the channel rpi
 
 name: consumption-env
 
 dependencies:
 
-- python=3.4.2        # DJ python3 (3.4.2-2)
-- ruamel_yaml=0.11.14 # DJ has no python3-ruamel.yaml, testing has (0.13.4-2)
-- redis-py=2.10.3     # DJ python3-redis (2.10.1-1)
-- numpy=1.11.2        # DJ python3-numpy (1:1.8.2-2)
-- pandas=0.19.2       # DJ python3-pandas (0.14.1-2)
-- sqlalchemy=0.9.8    # DJ python3-sqlalchemy (0.9.8+dfsg-0.1)
-- psycopg2=2.6.1      # DJ python3-psycopg2 (2.5.4+dfsg-1)
-- scikit-learn=0.18.1 # DJ python-sklearn (0.14.1-3), no python3-sklearn
-- psutil=5.0.1
+- python=3.6.2        # rpi 3.6.3
+- ruamel_yaml=0.11.14 # rpi 0.11.14
+- redis-py=2.10.3     # rpi none yet
+- numpy=1.13.1        # rpi 1.13.3
+- pandas=0.20.3       # rpi 0.21.0
+- sqlalchemy=1.1.4    # rpi 1.1.4 
+- psycopg2=2.7.1      # rpi 2.7.3.2
+- scikit-learn=0.19.0 # rpi 0.19.1
+- psutil=5.0.1        # rpi none yet
