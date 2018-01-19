@@ -5,12 +5,15 @@ name: consumption-env
 
 dependencies:
 
-- python=3.6.2        # rpi 3.6.3
-- pandas=0.20.3       # rpi 0.21.0
-- scikit-learn=0.19.0 # rpi 0.19.1
-- numpy=1.13.1        # rpi 1.13.3
-- ruamel_yaml=0.11.14 # rpi 0.11.14
-- sqlalchemy=1.1.4    # rpi 1.1.4 
-- psycopg2=2.7.1      # rpi 2.7.3.2
-- redis-py=2.10.3     # rpi none yet
-- psutil=5.0.1        # rpi none yet
+  - python=3.6.2        # rpi 3.6.3,   installed from rpi
+  - pandas=0.20.3       # rpi 0.21.0,  installed from rpi
+  - scikit-learn=0.19.0 # rpi 0.19.1,  installed from rpi
+  - numpy=1.13.1        # rpi 1.13.3,  installed from rpi
+  - ruamel_yaml=0.11.14 # rpi 0.11.14, installed from rpi
+  - sqlalchemy=1.1.4    # rpi 1.1.4,   installed from rpi
+  - psutil=5.2.2        # rpi 5.2.2,   installed from rpi
+
+  - pip:
+    - psycopg2==2.7.1    # rpi none,    installed from pip
+
+  - redis-py=2.10.5     # rpi none,    installed from ?
